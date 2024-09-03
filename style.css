@@ -1,0 +1,30 @@
+.expander {
+  transform: rotate(0deg);
+  transition: transform 0.1s linear;
+}
+
+.expander.active {
+  transform: rotate(90deg);
+  transition: transform 0.1s linear;
+}
+
+.obj-icon {
+  color: #606060;
+}
+
+code {
+  padding: 2px;
+  font-family: monospace;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  border: 1px solid rgba(0,0,0,.3);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.expander {
+  color: #808080;
+  font-size: 8pt;
+}
